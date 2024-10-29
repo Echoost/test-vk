@@ -1,0 +1,10 @@
+body {
+    position: relative;
+    margin: 0;
+    padding: 0;
+    background-color: rgba(9, 9, 12, 1);
+    color: #fff;
+}
+.infinite-scroll-component {
+    overflow-y: hidden !important;
+}

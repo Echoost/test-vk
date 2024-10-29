@@ -1,0 +1,13 @@
+.XDGZMaGt{width:24px;height:24px;border-radius:100%}.Yosk7Xui{display:flex;align-items:center;justify-content:space-between;flex:1;width:600px;height:80px;border:1px solid #fff;border-radius:20px;padding:0 20px;margin-top:20px;transition:.3s all}.Yosk7Xui:hover{background-color:rgba(0,0,0,.8)}.HXcOarPq{color:#fff;text-decoration:none;cursor:pointer}
+.aGNsGtUY{position:absolute;right:330px;top:0;height:100vh;width:200px;padding-top:10px;transition:transform .3s ease,opacity .3s ease;transform:translateX(100%);opacity:0;pointer-events:none}.D87GRFQk{transform:translateX(0);opacity:1;pointer-events:auto}.SomHmCKe{position:absolute !important;right:0;top:0;z-index:3}
+body {
+    position: relative;
+    margin: 0;
+    padding: 0;
+    background-color: rgba(9, 9, 12, 1);
+    color: #fff;
+}
+.infinite-scroll-component {
+    overflow-y: hidden !important;
+}
+

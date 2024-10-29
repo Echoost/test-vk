@@ -1,17 +1,22 @@
-import React, { useState } from 'react';
-import classes from './App.module.scss';
-export const App = () => {
-    const [count, setCount] = useState(0);
+import { Box, Typography } from '@mui/material';
+import { RepositoriesList } from './repositories-list/RepositoriesList';
+import HamburgerMenu from './hamburger-menu/HamburgerMenu';
 
-    const handleClick = () => {
-        setCount(prevCount => prevCount + 1);
-    };
+export const App = () => {
     return (
         <>
-            <div>{count}</div>
-            <button className={classes.button} onClick={handleClick}>
-                Click
-            </button>
+            <Box
+                display={'flex'}
+                alignItems={'center'}
+                flexDirection={'column'}
+                paddingTop={'20px'}
+            >
+                <Typography component={'h1'}>
+                    Список репозиторий на GitHub
+                </Typography>
+                <RepositoriesList />
+            </Box>
+            <HamburgerMenu />
         </>
     );
 };

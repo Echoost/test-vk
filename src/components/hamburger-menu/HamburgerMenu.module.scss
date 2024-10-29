@@ -1,0 +1,27 @@
+.hamburger_menu {
+    position: absolute;
+    right: 330px;
+    top: 0;
+    height: 100vh;
+    width: 200px;
+    padding-top: 10px;
+    transition:
+        transform 0.3s ease,
+        opacity 0.3s ease;
+    transform: translateX(100%);
+    opacity: 0;
+    pointer-events: none;
+}
+
+.active {
+    transform: translateX(0);
+    opacity: 1;
+    pointer-events: auto;
+}
+
+.hamburger_icon {
+    position: absolute !important;
+    right: 0;
+    top: 0;
+    z-index: 3;
+}

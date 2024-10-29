@@ -54,6 +54,14 @@ export function buildLoaders(options: BuildOptions): ModuleOptions['rules'] {
         ],
     };
 
+    const cssLoader = {
+        test: /\.css$/i,
+        use: [
+            isDev ? 'style-loader' : MiniCssExtractPlugin.loader,
+            'css-loader',
+        ],
+    };
+
     const tsLoader = {
         test: /\.tsx?$/,
         exclude: /node_modules/,
@@ -72,5 +80,5 @@ export function buildLoaders(options: BuildOptions): ModuleOptions['rules'] {
         ],
     };
 
-    return [assetLoader, scssLoader, tsLoader, svgrLoader];
+    return [assetLoader, cssLoader, scssLoader, tsLoader, svgrLoader];
 }

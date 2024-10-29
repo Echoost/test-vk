@@ -1,0 +1,28 @@
+.repo_img {
+    width: 24px;
+    height: 24px;
+    border-radius: 100%;
+}
+
+.repo_item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex: 1;
+    width: 600px;
+    height: 80px;
+    border: 1px solid #fff;
+    border-radius: 20px;
+    padding: 0 20px;
+    margin-top: 20px;
+    transition: 0.3s all;
+
+    &:hover {
+        background-color: rgba(0, 0, 0, 0.8);
+    }
+}
+.repo_link {
+    color: #fff;
+    text-decoration: none;
+    cursor: pointer;
+}
