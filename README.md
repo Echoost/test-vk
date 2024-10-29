@@ -5,7 +5,7 @@
 
 В правом верхнем углу находится меню, при нажатии на которое открываются фильтры. С их помощью можно отфильтровать репозитории по годам создания.
 
-Стек: React, TS, Material UI, React Infinity Scroller, GASP, Webpack
+Стек: React, TS, MobX, Material UI, React Infinity Scroller, GASP, Webpack
 
 Выбрал Material UI, так как у меня есть опыт работы с этой библиотекой, и она значительно упрощает процесс разработки.
 
